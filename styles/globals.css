@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: 40 41 61;
+    --bg-secondary: 71 71 110;
+    --bg-accent: 119 137 243;
+
+    --text-primary: 255 255 255;
+    --text-secondary: 40 41 61;
+    --text-tertiary: 71 71 110;
+    --text-accent: 255 156 7;
+
+    /* light */
+    --lightest: 255 255 255;
+    --light: 215 221 239;
+    --light-accent: 255 156 7;
+
+    /* dark */
+    --darkest: 40 41 61;
+    --dark: 71 71 110;
+    --dark-accent: 119 137 243;
+  }
+}
+
+/*  .light-theme { */
+/* light */
+/*  --lightest: 40 41 61;
+    --light: 40 41 61;
+    --light-accent: 119 137 243;
+ */
+/* dark */
+/*  --darkest: 255 255 255;
+    --dark: 215 221 239;
+    --dark-accent: 255 156 7;
+  } */
+
+/* * {
+  border: 1px solid red;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-montserrat font-bold tracking-wider md:tracking-widest;
+}
+
+.h1 {
+  @apply text-3xl md:text-5xl lg:text-6xl;
+}
+.h2 {
+  @apply text-2xl md:text-4xl lg:text-5xl;
+}
+.h3 {
+  @apply text-xl md:text-3xl lg:text-4xl;
+}
+.h4 {
+  @apply text-lg md:text-2xl lg:text-3xl;
+}
+.h5 {
+  @apply text-base md:text-xl lg:text-2xl;
+}
+.h6 {
+  @apply text-sm md:text-lg lg:text-xl;
+}
+
+.center {
+  @apply mx-auto w-11/12;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.align-horizontal {
+  @apply flex items-center;
+}
+
+/* animations */
+.scale-up-ver-bottom {
+  -webkit-animation: scale-up-ver-bottom 0.4s
+    cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-ver-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* effects */
+.glass-dark {
+  backdrop-filter: blur(4px) saturate(180%);
+  -webkit-backdrop-filter: blur(4px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.5);
+}
+
+.glass-light {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* nav links hover effects */
+.link-underline-effect {
+  @apply relative py-1;
+}
+
+.link-underline-effect:after {
+  background: none repeat scroll 0 0 transparent;
+  @apply bottom-0 block left-1/2 absolute bg-white w-0 h-[2px];
+  content: '';
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.link-underline-effect:hover:after {
+  @apply w-full left-0;
+}
+
+/* .light-theme .navbar-text {
+    @apply text-lightest;
+  } */
