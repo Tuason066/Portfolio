@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect } from "react";
 
 const Context = createContext();
 
@@ -8,7 +8,7 @@ const HeightsContext = ({ children }) => {
   const [navHeight, setNavHeight] = useState(0);
   useEffect(() => {
     setNavHeight(
-      document.querySelector('[data-mainheader]').getBoundingClientRect().height
+      document.querySelector("[data-mainheader]").getBoundingClientRect().height
     );
   }, []);
 

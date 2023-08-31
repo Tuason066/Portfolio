@@ -1,22 +1,37 @@
-const About = () => {
+"use client";
+
+import { social_links } from "@helper/constants";
+
+const Footer = () => {
   return (
-    <section
-      id='about'
-      className='bg-lightest text-dark text-center py-14 lg:py-20'
-    >
-      <div className='center max-w-2xl'>
-        <h2 className='h2 uppercase text-darkest mb-8 lg:mb-16'>about me</h2>
-        <p className='text-base md:text-lg lg:text-xl'>
-          I am highly motivated self-taught{' '}
-          <strong>Front-end Web Developer</strong> with a passion for creating
-          pixel-perfect designs and seamless user experiences. Seeking a
-          position where I can leverage my skills in HTML5, CSS3, JavaScript
-          (ES6), and other tech stack I have to deliver high quality web
-          applications.
+    <footer className="bg-dark text-lightest text-center py-8 md:py-12 lg:py-16">
+      <div className="center">
+        <div className="text-xl md:text-2xl lg:text-3xl align-horizontal gap-x-6 md:gap-x-8 lg:gap-x-10 justify-center">
+          {social_links.map(({ href, title, icon }) => (
+            <a
+              key={title}
+              href={href}
+              title={title}
+              target="_blank"
+              className="hover:opacity-70"
+            >
+              {icon}
+            </a>
+          ))}
+        </div>
+        <p className="mt-4 text-sm lg:text-base">
+          Developed and Designed by{" "}
+          <strong>
+            <a
+              href="https://www.facebook.com/Tuason06"
+              className="uppercase tracking-wider hover:underline"
+            >
+              jeffrey tuason
+            </a>
+          </strong>
         </p>
       </div>
-    </section>
+    </footer>
   );
 };
-
-export default About;
+export default Footer;
