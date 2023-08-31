@@ -12,10 +12,6 @@ import Home from "@components/Home";
 import Projects from "@components/Projects";
 import TechnologyStack from "@components/TechnologyStack";
 
-export const metadata = {
-  title: "Next.js",
-};
-
 const page = () => {
   useEffect(() => {
     AOS.init();
