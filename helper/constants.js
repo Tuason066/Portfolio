@@ -113,20 +113,24 @@ export const projects = [
 
 export const techStacks = [
   {
-    icon_name: "devicon:nodejs",
-    title: "Nodejs",
+    icon_name: "devicon:mongodb",
+    title: "Mongodb",
   },
   {
     icon_name: "skill-icons:expressjs-dark",
     title: "Expressjs",
   },
   {
+    icon_name: "logos:react",
+    title: "React",
+  },
+  {
     icon_name: "devicon:nextjs",
     title: "Nextjs",
   },
   {
-    icon_name: "logos:react",
-    title: "React",
+    icon_name: "devicon:nodejs",
+    title: "Nodejs",
   },
   {
     icon_name: "logos:typescript-icon",
@@ -141,6 +145,26 @@ export const techStacks = [
     title: "Bootstrap",
   },
   {
+    icon_name: "logos:sass",
+    title: "Sass",
+  },
+  {
+    icon_name: "logos:mysql",
+    title: "MySQL",
+  },
+  {
+    icon_name: "logos:postgresql",
+    title: "PostgreSQL",
+  },
+  {
+    icon_name: "devicon:php",
+    title: "PHP",
+  },
+  {
+    icon_name: "logos:codeigniter-icon",
+    title: "Codeigniter",
+  },
+  {
     icon_name: "devicon:java",
     title: "Java",
   },
@@ -148,14 +172,6 @@ export const techStacks = [
     icon_name: "bxl:spring-boot",
     title: "Spring Boot",
     color: "#6db33f",
-  },
-  {
-    icon_name: "logos:mysql",
-    title: "MySQL",
-  },
-  {
-    icon_name: "devicon:mongodb",
-    title: "Mongodb",
   },
   {
     icon_name: "logos:javascript",
@@ -168,10 +184,6 @@ export const techStacks = [
   {
     icon_name: "vscode-icons:file-type-html",
     title: "HTML",
-  },
-  {
-    icon_name: "logos:sass",
-    title: "Sass",
   },
   {
     icon_name: "logos:figma",

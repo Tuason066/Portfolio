@@ -1,5 +1,3 @@
-"use client";
-
 import { social_links } from "@helper/constants";
 
 const Footer = () => {
@@ -20,7 +18,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="mt-4 text-sm lg:text-base">
-          Developed and Designed by{" "}
+          Designed and Developed by{" "}
           <strong>
             <a
               href="https://www.facebook.com/Tuason06"
@@ -28,7 +26,8 @@ const Footer = () => {
             >
               jeffrey tuason
             </a>
-          </strong>
+          </strong>{" "}
+          &copy; {new Date().getFullYear()}
         </p>
       </div>
     </footer>
