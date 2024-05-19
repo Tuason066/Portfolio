@@ -27,7 +27,7 @@ const Home = () => {
               I'm{" "}
               <span className="uppercase text-lightAccent">Jeffrey Tuason</span>
             </h1>
-            <p className="h4 font-medium">Jr. Front-end Developer</p>
+            <p className="h4 font-medium">Software Developer</p>
           </div>
           {/* SOCIAL ICONS */}
           <div
