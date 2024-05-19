@@ -1,3 +1,5 @@
+"use client";
+
 import { social_links } from "@helper/constants";
 
 const Footer = () => {
