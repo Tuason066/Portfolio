@@ -1,12 +1,12 @@
 # I'm Open For Work/Internship
 
-Hi 👋, I'm Jeffrey Tuason a Front-end Developer.
+Hi 👋, I'm Jeffrey Tuason a Software Engineer.
 
 - [Contact Me ](#developer)
 
 ## About Me
 
-I am highly motivated self-taught **Front-end Web Developer** with a passion for creating pixel-perfect designs and seamless user experiences. Seeking a position where I can leverage my skills in HTML5, CSS3, JavaScript (ES6), and other tech stack I have to deliver high quality web applications.
+As a driven and innovative <strong>Software Engineer</strong> with a strong foundation in Computer Technology, I'm excited to bring my skills and passion to a forward-thinking team. With a keen eye for detail and a passion for crafting exceptional user experiences, I excel in creating visually stunning and highly functional web applications using cutting-edge technologies like Nextjs, Reactjs, and PHP. I'm now looking for a challenging role that will allow me to leverage my skills, expand my expertise, and contribute to the development of innovative solutions that make a real impact. Let's build something amazing together!
 
 ## Table of contents
 
@@ -34,5 +34,5 @@ I am highly motivated self-taught **Front-end Web Developer** with a passion for
 - Website - [Portfolio](https://jeffrey-tuason-portfolio.netlify.app/)
 - Facebook - [@Tuason06](https://www.facebook.com/Tuason06)
 - Frontend Mentor - [@Tuason066](https://www.frontendmentor.io/profile/Tuason066)
-- Twitter - [@jepoyduque06](https://www.twitter.com/jepoyduque06)
 - LinkedIn - [@jeffreytuason](https://www.linkedin.com/in/jeffreytuason/)
+- Twitter - [@jepoyduque06](https://www.twitter.com/jepoyduque06)
