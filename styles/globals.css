@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -116,10 +116,15 @@ h6 {
 .link-underline-effect:after {
   background: none repeat scroll 0 0 transparent;
   @apply bottom-0 block left-1/2 absolute bg-white w-0 h-[2px];
-  content: "";
+  content: '';
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
-.link-underline-effect:hover:after {
+
+/* .link-underline-effect:hover:after {
+  @apply w-full left-0;
+} */
+
+.link-underline-effect.active:after {
   @apply w-full left-0;
 }
 

@@ -8,7 +8,7 @@ const ScrollContext = ({ children }) => {
   const [scroll, setScroll] = useState(0);
 
   const handleScroll = () =>
-    setScroll(() => window.pageYOffset || document.documentElement.scrollTop);
+    setScroll(() => window.scrollY || document.documentElement.scrollTop);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
