@@ -8,7 +8,7 @@ import HeightsContext from '@context/HeightsContext';
 export const metadata = {
   title: 'Jeffrey Tuason - Portfolio',
   description:
-    "As a driven and innovative Junior Software Engineer with a strong foundation in Computer Technology, I'm excited to bring my skills and passion to a forward-thinking team. With a keen eye for detail and a passion for crafting exceptional user experiences, I excel in creating visually stunning and highly functional web applications using cutting-edge technologies like Nextjs, Reactjs, and PHP. I'm now looking for a challenging role that will allow me to leverage my skills, expand my expertise, and contribute to the development of innovative solutions that make a real impact. Let's build something amazing together!",
+    "As a driven and innovative Junior Front-end Developer with a strong foundation in Computer Technology, I'm excited to bring my skills and passion to a forward-thinking team. With a keen eye for detail and a passion for crafting exceptional user experiences, I excel in creating visually stunning and highly functional web applications using cutting-edge technologies like Nextjs, Reactjs, and PHP. I'm now looking for a challenging role that will allow me to leverage my skills, expand my expertise, and contribute to the development of innovative solutions that make a real impact. Let's build something amazing together!",
   generator: 'Next.js',
   applicationName: 'Jeffrey Tuason Portfolio',
   url: 'https://jeffrey-tuason-portfolio.netlify.app/',
@@ -49,7 +49,7 @@ export const metadata = {
   openGraph: {
     title: 'Jeffrey Tuason - Portfolio',
     description:
-      "As a driven and innovative Junior Software Engineer with a strong foundation in Computer Technology, I'm excited to bring my skills and passion to a forward-thinking team. With a keen eye for detail and a passion for crafting exceptional user experiences, I excel in creating visually stunning and highly functional web applications using cutting-edge technologies like Nextjs, Reactjs, and PHP. I'm now looking for a challenging role that will allow me to leverage my skills, expand my expertise, and contribute to the development of innovative solutions that make a real impact. Let's build something amazing together!",
+      "As a driven and innovative Junior Front-end Developer with a strong foundation in Computer Technology, I'm excited to bring my skills and passion to a forward-thinking team. With a keen eye for detail and a passion for crafting exceptional user experiences, I excel in creating visually stunning and highly functional web applications using cutting-edge technologies like Nextjs, Reactjs, and PHP. I'm now looking for a challenging role that will allow me to leverage my skills, expand my expertise, and contribute to the development of innovative solutions that make a real impact. Let's build something amazing together!",
     url: 'https://jeffrey-tuason-portfolio.netlify.app/',
     siteName: 'Jeffrey Tuason Portfolio',
     images: [

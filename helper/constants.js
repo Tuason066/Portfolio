@@ -52,7 +52,7 @@ export const social_links = [
     icon: <Icon icon='akar-icons:github-fill' />,
   },
   {
-    href: 'mailto:jepoyduque06@gmail.com?subject=Junior Software Engineer Application from Portfolio',
+    href: 'mailto:jepoyduque06@gmail.com?subject=Junior Front-end Developer Application from Portfolio',
     title: 'Gmail',
     icon: <Icon icon='mdi:gmail' />,
   },
