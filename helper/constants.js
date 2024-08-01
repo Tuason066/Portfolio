@@ -52,7 +52,7 @@ export const social_links = [
     icon: <Icon icon='akar-icons:github-fill' />,
   },
   {
-    href: 'mailto:jepoyduque06@gmail.com?subject=Junior Front-end Developer Application from Portfolio',
+    href: 'mailto:jepoyduque06@gmail.com?subject=Front-end Developer Application from Portfolio',
     title: 'Gmail',
     icon: <Icon icon='mdi:gmail' />,
   },
@@ -131,15 +131,15 @@ export const techStacks = [
   },
   {
     icon_name: 'devicon:nextjs',
-    title: 'Nextjs',
+    title: 'Next.js',
   },
   {
     icon_name: 'devicon:nodejs',
-    title: 'Nodejs',
+    title: 'Node.js',
   },
   {
     icon_name: 'logos:typescript-icon',
-    title: 'Typescript',
+    title: 'TypeScript',
   },
   {
     icon_name: 'devicon:tailwindcss',
@@ -149,14 +149,14 @@ export const techStacks = [
     icon_name: 'logos:bootstrap',
     title: 'Bootstrap',
   },
-  {
-    icon_name: 'logos:sass',
-    title: 'Sass',
-  },
-  {
-    icon_name: 'logos:mysql',
-    title: 'MySQL',
-  },
+  // {
+  //   icon_name: 'logos:sass',
+  //   title: 'Sass',
+  // },
+  // {
+  //   icon_name: 'logos:mysql',
+  //   title: 'MySQL',
+  // },
   {
     icon_name: 'logos:postgresql',
     title: 'PostgreSQL',
@@ -169,15 +169,15 @@ export const techStacks = [
     icon_name: 'logos:codeigniter-icon',
     title: 'Codeigniter',
   },
-  {
-    icon_name: 'devicon:java',
-    title: 'Java',
-  },
-  {
-    icon_name: 'bxl:spring-boot',
-    title: 'Spring Boot',
-    color: '#6db33f',
-  },
+  // {
+  //   icon_name: 'devicon:java',
+  //   title: 'Java',
+  // },
+  // {
+  //   icon_name: 'bxl:spring-boot',
+  //   title: 'Spring Boot',
+  //   color: '#6db33f',
+  // },
   {
     icon_name: 'logos:javascript',
     title: 'Javascript',
@@ -190,8 +190,8 @@ export const techStacks = [
     icon_name: 'vscode-icons:file-type-html',
     title: 'HTML',
   },
-  {
-    icon_name: 'logos:figma',
-    title: 'Figma',
-  },
+  // {
+  //   icon_name: 'logos:figma',
+  //   title: 'Figma',
+  // },
 ];

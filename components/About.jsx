@@ -8,7 +8,7 @@ const About = () => {
         <h2 className='h2 uppercase text-darkest mb-8 lg:mb-16'>about me</h2>
         <p className='text-justify'>
           &nbsp; &nbsp; &nbsp; &nbsp;As a driven and innovative{' '}
-          <strong>Junior Front-end Developer</strong> with a strong foundation
+          <strong>Front-end Developer</strong> with a strong foundation
           in Computer Technology, I'm excited to bring my skills and passion to
           a forward-thinking team. With a keen eye for detail and a passion for
           crafting exceptional user experiences, I excel in creating visually
